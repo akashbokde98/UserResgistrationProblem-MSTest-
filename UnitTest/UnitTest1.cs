@@ -11,16 +11,16 @@ namespace UnitTest
         }
 
         [Test]
-        [TestCase("Asdfesf9")]
-        [TestCase("0daSkksflk")]
-        [TestCase("akasH8okde")]
-        [TestCase("A4sdfaskglafg")]
-        public void CheckPassword_3_PassingValidInput_ShouldReturnTrue(string userInput)
+        [TestCase("A@dfesf9")]
+        [TestCase("0daSkks#lk")]
+        [TestCase("aka$H8okde")]
+        [TestCase("A4sdfa02kglafg")]
+        public void CheckPassword_4_PassingValidInput_ShouldReturnTrue(string userInput)
         {
             Program name = new Program();
             bool expected = true;
 
-            var actual = name.CheckPassword_3(userInput);
+            var actual = name.CheckPassword_4(userInput);
 
             Assert.AreEqual(expected, actual);
         }
