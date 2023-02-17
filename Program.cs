@@ -1,12 +1,19 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace UserRegistration
 {
-    internal class Program
+    public class Program
     {
+        public static string FirstNamePattern = @"^[A-Z][a-z]{3,}$";
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To User Registration Problem!");
+            Console.WriteLine("User Registration Problem!");
+        }
+        public bool CheckFirstName(string input)
+        {
+            Regex rg = new Regex(FirstNamePattern);
+            return rg.IsMatch(input);
         }
     }
 }
