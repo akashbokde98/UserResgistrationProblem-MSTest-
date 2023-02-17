@@ -5,14 +5,14 @@ namespace UserRegistration
 {
     public class Program
     {
-        public static string LastNamePattern = @"^[A-Z][a-z]{3,}$";
+        public static string EmailAddressPattern = @"^[a-z{3,}]+[@+-.0-9a-z{3,}]+$";
         static void Main(string[] args)
         {
             Console.WriteLine("User Registration Problem!");
         }
-        public bool CheckLastName(string input)
+        public bool CheckEmailAddress(string input)
         {
-            Regex rg = new Regex(LastNamePattern);
+            Regex rg = new Regex(EmailAddressPattern);
             return rg.IsMatch(input);
         }
     }

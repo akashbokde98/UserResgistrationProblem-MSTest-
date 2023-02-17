@@ -11,13 +11,13 @@ namespace UnitTest
         }
 
         [Test]
-        [TestCase("Bokde")]
-        public void CheckLastName_PassingValidInput_ShouldReturnTrue(string userInput)
+        [TestCase("abc.xyz@bl.co.in")]
+        public void CheckEmailAddress_PassingValidInput_ShouldReturnTrue(string userInput)
         {
             Program name = new Program();
             bool expected = true;
 
-            var actual = name.CheckLastName(userInput);
+            var actual = name.CheckEmailAddress(userInput);
 
             Assert.AreEqual(expected, actual);
         }
