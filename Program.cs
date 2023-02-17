@@ -5,14 +5,14 @@ namespace UserRegistration
 {
     public class Program
     {
-        public static string PhoneNumberPattern = @"^91[ ][0-9]+$";
+        public static string Password_1Pattern = @"^[A-Za-z]{8,}$";
         static void Main(string[] args)
         {
             Console.WriteLine("User Registration Problem!");
         }
-        public bool CheckPhoneNumber(string input)
+        public bool CheckPassword_1(string input)
         {
-            Regex rg = new Regex(PhoneNumberPattern);
+            Regex rg = new Regex(Password_1Pattern);
             return rg.IsMatch(input);
         }
     }

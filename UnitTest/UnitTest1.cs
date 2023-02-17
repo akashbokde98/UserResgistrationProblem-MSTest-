@@ -11,16 +11,16 @@ namespace UnitTest
         }
 
         [Test]
-        [TestCase("91 9584726350")]
-        [TestCase("91 9584724218")]
-        [TestCase("91 1245826350")]
-        [TestCase("91 3984776388")]
-        public void CheckPhoneNumber_PassingValidInput_ShouldReturnTrue(string userInput)
+        [TestCase("asdfesfh")]
+        [TestCase("fdaskksflk")]
+        [TestCase("akashbokde")]
+        [TestCase("asdfaskgladfg")]
+        public void CheckPassword_1_PassingValidInput_ShouldReturnTrue(string userInput)
         {
             Program name = new Program();
             bool expected = true;
 
-            var actual = name.CheckPhoneNumber(userInput);
+            var actual = name.CheckPassword_1(userInput);
 
             Assert.AreEqual(expected, actual);
         }
