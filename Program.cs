@@ -5,14 +5,14 @@ namespace UserRegistration
 {
     public class Program
     {
-        public static string EmailAddressPattern = @"^[a-z{3,}]+[@+-.0-9a-z{3,}]+$";
+        public static string PhoneNumberPattern = @"^91[ ][0-9]+$";
         static void Main(string[] args)
         {
             Console.WriteLine("User Registration Problem!");
         }
-        public bool CheckEmailAddress(string input)
+        public bool CheckPhoneNumber(string input)
         {
-            Regex rg = new Regex(EmailAddressPattern);
+            Regex rg = new Regex(PhoneNumberPattern);
             return rg.IsMatch(input);
         }
     }
