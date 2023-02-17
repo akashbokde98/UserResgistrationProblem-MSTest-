@@ -5,14 +5,14 @@ namespace UserRegistration
 {
     public class Program
     {
-        public static string Password_2Pattern = @"^((?=.*)(?=.*[A-Z])(?=.*).{8,})$";
+        public static string Password_3Pattern = @"^((?=.*\d)(?=.*[A-Z])(?=.*[a-z]).{8,})$";
         static void Main(string[] args)
         {
             Console.WriteLine("User Registration Problem!");
         }
-        public bool CheckPassword_2(string input)
+        public bool CheckPassword_3(string input)
         {
-            Regex rg = new Regex(Password_2Pattern);
+            Regex rg = new Regex(Password_3Pattern);
             return rg.IsMatch(input);
         }
     }
