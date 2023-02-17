@@ -1,0 +1,14 @@
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.exe
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.deps.json
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.runtimeconfig.json
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.runtimeconfig.dev.json
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.dll
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\bin\Debug\netcoreapp3.1\UserRegistration.pdb
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.csproj.AssemblyReference.cache
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.GeneratedMSBuildEditorConfig.editorconfig
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.AssemblyInfoInputs.cache
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.AssemblyInfo.cs
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.csproj.CoreCompileInputs.cache
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.dll
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.pdb
+D:\RFP\Assignments\Day - 20\UserRegistration\UserRegistration\obj\Debug\netcoreapp3.1\UserRegistration.genruntimeconfig.cache

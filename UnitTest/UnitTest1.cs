@@ -11,13 +11,13 @@ namespace UnitTest
         }
 
         [Test]
-        [TestCase("Akash")]
-        public void CheckFirstName_PassingValidInput_ShouldReturnTrue(string userInput)
+        [TestCase("Bokde")]
+        public void CheckLastName_PassingValidInput_ShouldReturnTrue(string userInput)
         {
             Program name = new Program();
             bool expected = true;
 
-            var actual = name.CheckFirstName(userInput);
+            var actual = name.CheckLastName(userInput);
 
             Assert.AreEqual(expected, actual);
         }
